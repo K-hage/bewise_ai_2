@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "bewise_ai_2"
+version = "0.1.0"
+description = ""
+authors = ["khage"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.95.2"}
+sqlalchemy = "^2.0.15"
+psycopg2-binary = "^2.9.6"
+asyncpg = "^0.27.0"
+envparse = "^0.2.0"
+uvicorn = "^0.22.0"
+alembic = "^1.11.1"
+pydub = "^0.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
